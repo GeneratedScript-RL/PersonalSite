@@ -31,16 +31,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20vh;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 50vh;
+    gap: 1rem;
     z-index: 1;
 }
 
 .intro-self {
+    margin: 0;
     font-size: 5rem;
     color: white;
-    position: relative;
-    display: inline-block;
     animation: fadeIntoPosition 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.intro-desc {
+    margin: 0;
+    color: rgb(200, 200, 200);
+    font-size: 1.2rem;
 }
 
 @keyframes fadeIntoPosition {
