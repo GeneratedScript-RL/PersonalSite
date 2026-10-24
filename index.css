@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: 'Short Stack', cursive;
+}
+
+.WelcomeDiv {
+    background-color: rgb(48, 48, 142);
+    height:200vh;
+    width: 100%;
+    display: flex;
+}
+
+.Name {
+    height:100vh;
+    width: 100%;
+    padding: 30vh 0;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-self {
+    font-size: 3rem;
+}
