@@ -37,7 +37,7 @@ body {
     transform: scaleX(0);
     animation: AnimateSizeSeperatorLine 1s ease-in-out forwards;
     transform-origin: center;
-    margin-top:auto;
+    margin-top: clamp(2rem, 5vh, 4rem);
 }
 
 #birdCanvas {
@@ -108,4 +108,5 @@ body {
     position: relative;
     justify-content: flex-start;
     flex-wrap: wrap;
+    border-radius: 10px;
 }
