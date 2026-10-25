@@ -9,16 +9,19 @@ body {
 
 .WelcomeDiv {
     background-color: rgb(48, 48, 142);
-    height:50vh;
+    min-height:35vh;
     width: 100%;
     display: flex;
     position: relative;
     overflow:hidden;
+    align-items:center;
+    flex-direction: column;
+    padding-top: 4rem;
 }
 
 .ProjectsDiv {
     background-color: rgb(48, 48, 142);
-    height:100vh;
+    min-height:100vh;
     width: 100%;
     display: flex;
     position: relative;
@@ -26,15 +29,13 @@ body {
 }
 
 .SeperatorLine {
-    position: absolute;
-    left: 50%;
     width: 80%;
     height: 2px;
-    margin: 0 auto;
     background-color: white;
-    transform: translate(-50%) scaleX(0);
-    animation: AnimateSizeSeperatorLine 2s ease-in-out forwards;
+    transform: scaleX(0);
+    animation: AnimateSizeSeperatorLine 1s ease-in-out forwards;
     transform-origin: center;
+    margin-top:auto;
 }
 
 #birdCanvas {
@@ -47,14 +48,12 @@ body {
 
 .Name {
     position: relative;
-    height:100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 50vh;
     gap: 1rem;
     z-index: 1;
 }
@@ -86,10 +85,19 @@ body {
 
 @keyframes AnimateSizeSeperatorLine {
     0% {
-        transform: translate(-50%) scaleX(0);
+        transform: scaleX(0);
     }
 
     100% {
-        transform: translate(-50%) scaleX(1);
+        transform: scaleX(1);
     }
+}
+
+.ProjectsTitle {
+    color: white;
+    font-size: 3rem;
+}
+
+.Projects{
+    width: 100%;
 }
