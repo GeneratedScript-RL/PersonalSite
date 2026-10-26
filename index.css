@@ -98,6 +98,7 @@ body {
 .ProjectsTitle {
     color: white;
     font-size: 3rem;
+    animation: fadeIntoPosition 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 .ProjectsContainer {
@@ -109,4 +110,57 @@ body {
     justify-content: flex-start;
     flex-wrap: wrap;
     border-radius: 10px;
+    padding: 1rem;
+    animation: fadeIntoPosition 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    gap: 1rem;
+}
+
+.Project{
+    border: 2px solid white;
+    width: 25%;
+    height: 35%;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    transition: transform 0.2s ease, border-color 0.2s ease;
+    animation: fadeIntoPosition 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    background: rgb(35, 35, 110);
+}
+
+.LinkButtons {
+    display: flex;
+    justify-content: flex-start;
+    min-height: 3rem;
+    padding: 0rem 0.7rem 0;
+}
+
+.LinkButtons a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+.Project h3{
+    padding: 0.75rem 1rem 0rem;
+    margin: 0;
+    color: white;
+    font-family: Segoe UI, Arial;
+}
+
+.Project img:not(.LinkButtonImage) {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.Project p {
+    margin: 0;
+    padding: 0.75rem 1rem 1rem;
+    color: rgb(220, 220, 220);
+    font-size: clamp(0.8rem, 1vw, 0.95rem);
+    line-height: 1.4;
 }
