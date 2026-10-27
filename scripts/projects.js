@@ -7,18 +7,23 @@ Projects = {
         Links: {
             "SC": "https://www.sorcles.com/",
             "YT": "https://youtu.be/GzmeT4LgaMo",
+            "RBLX": "https://www.roblox.com/games/129046331033002/Hotshot",
         },
     },
     "Voidfarers": {
         ImagePath: "images/Voidfarers.png",
         Description: "INDEV Arcade flight game rougelite, inspired by delivery may complete.",
-        Links: {}
+        Links: {
+            "RBLX": "https://www.roblox.com/games/112883841333164/Voidfarers",
+            "YT": "",
+        }
     },
     "Dicer": {
         ImagePath: "images/Dicer.png",
         Description: "INDEV Game inspired by library of ruina and limbus company.",
         Links: {
             "YT": "https://youtu.be/Bl4D5vxUlmM",
+            "RBLX": "https://www.roblox.com/games/108923609917012/Dicer",
         }
     },
     "Pathology System (Area-19)": {
