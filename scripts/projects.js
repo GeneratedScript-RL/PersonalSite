@@ -15,7 +15,6 @@ Projects = {
         Description: "INDEV Arcade flight game rougelite, inspired by delivery may complete.",
         Links: {
             "RBLX": "https://www.roblox.com/games/112883841333164/Voidfarers",
-            "YT": "",
         }
     },
     "Dicer": {
