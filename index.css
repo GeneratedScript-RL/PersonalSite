@@ -19,7 +19,7 @@ body {
     padding-top: 4rem;
 }
 
-.ProjectsDiv {
+.DefaultDiv {
     background-color: rgb(48, 48, 142);
     min-height:100vh;
     width: 100%;
@@ -117,7 +117,7 @@ body {
     }
 }
 
-.ProjectsTitle {
+.DivTitles {
     color: white;
     font-size: 3rem;
     animation: fadeIntoPosition 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
