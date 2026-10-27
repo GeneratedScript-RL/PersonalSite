@@ -30,6 +30,28 @@ body {
     flex-direction: column;
 }
 
+.SocmedLinksDiv {
+    background-color: rgb(48, 48, 142);
+    min-height:7vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.SocmedLinksDiv a{
+    text-decoration: underline;
+    color: white;
+}
+
+.SocmedLinksDiv p{
+    color:white;
+}
+
 .SeperatorLine {
     width: 80%;
     height: 2px;
