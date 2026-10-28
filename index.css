@@ -182,6 +182,10 @@ body {
 .Song p{
     color: white;
     padding-left: 1vh;
+    min-width: 0;
+    flex: 1 1 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .Song img{
