@@ -41,6 +41,17 @@ body {
     flex-direction: column;
 }
 
+.AmIOnlineDiv {
+    background-color: rgb(48, 48, 142);
+    min-height: 20;
+    width: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    flex-direction: column;
+}
+
 .SocmedLinksDiv {
     background-color: rgb(48, 48, 142);
     min-height:7vh;
@@ -241,4 +252,27 @@ body {
     color: rgb(220, 220, 220);
     font-size: clamp(0.8rem, 1vw, 0.95rem);
     line-height: 1.4;
+}
+
+.OnlineStatusContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem 1rem 1rem;
+}
+
+.OnlineCheckButton {
+    background: rgb(35, 35, 110);
+    color: white;
+    font-family: 'Short Stack', cursive;
+    font-size: 1.2rem;
+    padding: 0.75rem 1.75rem;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.OnlineStatusText {
+    color: white;
 }
