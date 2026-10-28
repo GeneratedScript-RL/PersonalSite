@@ -10,6 +10,8 @@ const SongLinks = {
     Playlist3: ["7ETSUd74fhHvG2JldNVizV", "0RtYfzwkgj0sOBuZc3NmSK", "7zYtn0U2yDdLPQfc2Jct9F", "2G5iUlHUHT28DauclHioat", "6oh6pyBUaJWZbhQKsq0iAm", "0MemW1DmggDpHBGH4GgiaS", "4iHYQwgtrY26p2uQG8Nstr"],
 }
 
+// this used to be in 2 loops, which caused the songs to not appear until every song is loaded, since the first loop is throttled by spotify api
+// so I just inlined it.
 async function loadSongs() {
     for (const playlistName in SongLinks) {
         for (const trackId of SongLinks[playlistName]) {
