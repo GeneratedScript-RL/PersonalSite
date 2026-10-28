@@ -19,7 +19,7 @@ body {
     padding-top: 4rem;
 }
 
-.DefaultDiv {
+.ProjectDiv {
     background-color: rgb(48, 48, 142);
     min-height:100vh;
     width: 100%;
@@ -27,6 +27,17 @@ body {
     position: relative;
     overflow:hidden;
     align-items:center;
+    flex-direction: column;
+}
+
+.MusicDiv {
+    background-color: rgb(48, 48, 142);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -121,6 +132,33 @@ body {
     color: white;
     font-size: 3rem;
     animation: fadeIntoPosition 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.PlaylistContainer {
+    width: 80%;
+    min-height: 80vh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 1rem;
+    animation: fadeIntoPosition 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    gap: 1rem;
+}
+
+.Playlist {
+    border: 2px solid white;
+    width: 30%;
+    min-height: 80vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 1rem;
+    animation: fadeIntoPosition 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    gap: 1rem;
 }
 
 .ProjectsContainer {
