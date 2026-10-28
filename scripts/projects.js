@@ -40,7 +40,7 @@ Projects = {
         }
     },
     "BioPython": {
-        ImagePath: "images/BioPython.png",
+        ImagePath: "images/Biopython.png",
         Description: "Contributed Open-Source pull requests to python (~2-3 merged PRs)",
         Links: {
             "GIT": "https://github.com/biopython/biopython",
