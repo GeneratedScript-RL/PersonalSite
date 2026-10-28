@@ -155,10 +155,28 @@ body {
     display: flex;
     position: relative;
     flex-direction: column;
-    border-radius: 10px;
     padding: 1rem;
     animation: fadeIntoPosition 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
     gap: 1rem;
+}
+
+.Song {
+    width: 100%;
+    height: 10vh;
+    flex-direction: row;
+    display: flex;
+    border: 2px solid white;
+}
+
+.Song p{
+    color: white;
+    padding-left: 1vh;
+}
+
+.Song img{
+    height: 100%;
+    width: auto;
+    object-fit: cover;
 }
 
 .ProjectsContainer {
