@@ -1,4 +1,4 @@
-const PING_ENDPOINT = 'https://ping.yourdomain.com/';
+const PING_ENDPOINT = 'https://sajdjnasjknd.dpdns.org';
 
 const TIMEOUT_MS = 5000;
 
