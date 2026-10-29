@@ -4,6 +4,27 @@ This is a personal website meant to show the projects, music I like. Also shows 
 
 ![alt text](https://github.com/GeneratedScript-RL/PersonalSite/blob/main/images/PersonalSite.png "Banner")
 
+Try it!
+https://generatedscript-rl.github.io/PersonalSite/
+
+ - Projects list
+ - Intro + Boids Algorithm visual display 
+ - Button connecting to backend api.
+ - Songs list
+ - Social Media links
+ - Interacts with spotify api
+
+ # How does it work?
+
+ Very simple html, css and javascript setup.
+ One main index.html containing all static elements, then all scripts under scripts folder to handle birds, button api, dynamic loading for playlist and projects.
+ Also interacts with spotify api.
+
+ The CSS Styling is done by one index.css file.
+ The code for the backend is in ping-server.js, which is hosted locally on my laptop.
+
+ # Remarks
+
 I made this (in my opinion) okay-ish personal website. I was very busy and there was only a week left in stardance so I couldnt finish it all the way, but I will do more with it even after this ships.
 
 I was trying to learn css without using any ai since I've always been confused about how css works since its very weird.
