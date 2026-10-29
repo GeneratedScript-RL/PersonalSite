@@ -2,7 +2,7 @@
 
 This is a personal website meant to show the projects, music I like. Also shows an intro, social media links, and a boids algorithm showcase. Additionally a button to test if I am online.
 
-![alt text](https://github.com/ "Banner")
+![alt text](https://github.com/GeneratedScript-RL/PersonalSite/blob/main/images/PersonalSite.png "Banner")
 
 I made this (in my opinion) okay-ish personal website. I was very busy and there was only a week left in stardance so I couldnt finish it all the way, but I will do more with it even after this ships.
 
